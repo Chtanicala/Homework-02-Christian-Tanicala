@@ -1,0 +1,164 @@
+/* Apply a dark reddish color to the background and apply body font family Trebuchet */
+body {
+    background-color: #6b0f1cc7;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Apply padding to the header, change font color to white, create a bottom border, and a lighter red background color */
+header {
+    padding: 20px;
+    background-color: #911735;
+    color: #ffffff;
+    border-bottom: 10px solid #75152d;
+}
+
+/* Put navigation bar into a flex box so that it scales, doesnt wrap when shrunk, and is aligned to the center */
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+/* Put h1 tag and navbar on same line */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* remove bullet points from navbar list */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Display the liste items in the navbar on the same line, with a margin and padding at the bottom to separate when shrunk */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-bottom: 10px;
+}
+
+/* Give all the links in the navbar white font, underlined and a 25px font size */
+.navlink {
+    text-decoration: underline;
+    color: white;
+    font-size: 25px;
+}
+
+/* Postion the picture of Christian to the left, in a flex box with a described width, height, and margin */
+.Christian {
+    display: flex;
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin: 20px
+}
+
+/* Put the 3 categories in a flexbox, center the content and put it in a column order */
+.content {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Standardize the 3 sections with padding and a margin */
+section {
+    padding: 20px;
+    margin: 10px
+}
+
+/* all the h2 tags in the sections are centered, have a bottom border with padding, and a font size of 30 with white color */
+section h2 {
+   text-align: center;
+   border-bottom: 10px solid #911735;
+   padding-bottom: 10px;
+   font-size: 30px;
+   color: white;
+}
+
+/* Any pargraphs in the section tag have a padding, white font color, font-family of Gill San for better reading, and adjusted line-height for better reading */
+section p {
+    padding: 10px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 35px;
+    text-indent: 20px;
+}
+
+/* Out of the 3 images, make 1 of the images isolated, and bigger than the other 2 images */
+#MainImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    border: 5px solid #911735;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+/* Adding a caption to the pictures */
+figcaption{
+    background-color: #911735;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+/* Styling to the 2 subimages in order to center them on the same line below the main image */
+#SubImgCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Give the sub images styline of their own similar to main image but adjusted so that they are smaller */
+.SubImg {
+    display: inline-block;
+    width: 23%;
+    height: 25%;
+    border: 5px solid #911735;
+    margin-bottom: 20px;
+    margin: 21px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+/* Foot styling to match the header of the website */
+Footer {
+    padding: 20px;
+    margin: 10px;
+    background-color: #911735;
+}
+
+/* Footer styling to the h2 tag to fit the theme of the website */
+Footer h2 {
+    text-align: center;
+    border-bottom: 10px solid #911735;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+/* Take away the bullet points in the contact section, and center the list */
+Footer ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+
+/* Display the list inline with each other and a margin with a relative position in order to make it more centered on the h2 tag */
+Footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 45px;
+}
