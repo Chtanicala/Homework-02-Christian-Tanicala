@@ -5,36 +5,57 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <title>Christian Tanicala - Portfolio</title>
 </head>
 
 <body>
     <header class="site-navigation"> 
-            <h1>Christian Tanicala</h1>
-                <nav class="navigation">
-                    <ul>
-                        <li>
-                            <a href="#AboutMe" class = "navlink">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#MyWork" class = "navlink">My Work </a>
-                        </li>
-                        <li>
-                            <a href="#Contact" class = "navlink">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-    </header>
-    <img src="assets/pictures/Me.jpg" class="Christian">
-    <div class="content">
-        <section id="AboutMe">
-            <h2> About Me </h2>
-            <p>
-                Christian Tanicala is a recent graduate of the Ohio State University's Fisher College of Business, graduating with a Bachelor's degree in Business Science of Business Administration, and specializing in Logistics Management.
-                Although Christian has specialized in Logistics Management, Christian has started his career in the financial securities industry. He currently works for Morgan Stanley in Columbus, Ohio in the Wealth Management department as a Workplace Solutions Group Service Representative.
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Christian Tanicala</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+               
+                <li class="nav-item active">
+                  <a class="nav-link" href="#AboutMe">About Me <span class="sr-only">(current)</span></a>
+                </li>
 
-            </p>
-        </section>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#MyWork">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Contact">Contact <span class="sr-only">(current)</span></a>
+                </li>    
+
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <img src="assets/pictures/Me.jpg" class="Christian colu">
+            <div class="section">
+                <section id="AboutMe">
+                <h2> About Me </h2>
+                    <p>
+                    Christian Tanicala is a recent graduate of the Ohio State University's Fisher College of Business, graduating with a Bachelor's degree in Business Science of Business Administration, and specializing in Logistics Management.
+                    Although Christian has specialized in Logistics Management, Christian has started his career in the financial securities industry. He currently works for Morgan Stanley in Columbus, Ohio in the Wealth Management department as a Workplace Solutions Group Service Representative.
+    
+                    </p>
+                </section>
+        </div>
+    </section>
+
+
         <section id ="MyWork">
             <h2> My Work </h2>
                 <figure class="figure">
