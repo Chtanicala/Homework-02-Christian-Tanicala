@@ -1,12 +1,32 @@
-* {
-    background-color: #EDC7B7;
-    font-family: 'Ubuntu', sans-serif;
+header{
+    background-color: #EDC7B7 !important;
+    color: #AC3B61 !important
 }
 
+body {
+    background-color: #EEE2DC !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #AC3B61 !important
+}
+
+h2 {
+    font-weight: bold !important;
+}
 
 #AboutMe {
     margin-top: 3%;
     margin-bottom: 1%;
+}
+
+#border-style {
+    border-right: 5px solid #AC3B61 !important;
+}
+
+P {
+    color: #123C69;
+    font-size: 25px;
+    font-weight:bolder;
+    text-indent: 30px;
 }
 
 #MyWork {
