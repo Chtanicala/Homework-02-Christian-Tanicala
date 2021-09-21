@@ -1,11 +1,12 @@
-# 02 Advanced CSS: Portfolio
+# Portfolio Website
 
 ## Description
-- The purpose of this project was to create my own portfolio website using CSS and HTML
+- The purpose of this project is to create a website for me to consolidate my projects as well as information about me into one place.
 
-- This solves a problem helps to place all my projects in one place and make visibility easier for potential employers
-
-- The learned outcome of this project was the learning of how to use CSS and HTML together to create a website
+## Technologies
+- Bootstrap (CSS)
+- Javascript
+- HTML
 
 ## Troubleshooting
 - If LinkedIn link does not work, please sign in.
@@ -15,6 +16,13 @@
 - https://www.w3schools.com/html/html5_semantic_elements.asp (HTML Semantics)
 - https://picsum.photos/ (Placeholder Images)
 
+## License
+- MIT
+
 ## Links
-- https://chtanicala.github.io/Homework-02-Christian-Tanicala/ (Website Link)
-- https://github.com/Chtanicala/Homework-02-Christian-Tanicala (Repository)
+- https://chtanicala.github.io/Website-Portfolio/ (Website Link)
+- https://github.com/Chtanicala/Website-Portfolio (Repository)
+
+## Contributors
+- Christian Tanicala
+    - christian.tanicala@gmail.com

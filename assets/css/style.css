@@ -36,3 +36,7 @@ P {
 #Contact {
     margin-bottom: 5%;
 }
+
+li {
+    list-style-type: none;
+}
