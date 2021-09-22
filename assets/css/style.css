@@ -40,3 +40,17 @@ P {
 li {
     list-style-type: none;
 }
+
+#mainimg{
+    width: 700px !important;
+    height: 700px !important;
+    text-align: center !important;
+}
+
+img {
+    width: 500px !important;
+    height: 500px !important;
+    object-fit: cover;
+    
+}
+
