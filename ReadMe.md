@@ -12,7 +12,7 @@
 - If LinkedIn link does not work, please sign in.
 
 ## Screenshot
-- ![](assets/pictures/Screenshot.png)
+- ![](assets/pictures/Screenshot.PNG)
 
 ## Credits
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide (ReadMe Guide)
