@@ -11,6 +11,9 @@
 ## Troubleshooting
 - If LinkedIn link does not work, please sign in.
 
+## Screenshot
+- ![](assets/pictures/Screenshot.png)
+
 ## Credits
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide (ReadMe Guide)
 - https://www.w3schools.com/html/html5_semantic_elements.asp (HTML Semantics)
