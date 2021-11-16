@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style copy.css">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -15,114 +14,63 @@
     <title>Christian Tanicala - Portfolio</title>
 </head>
 
-<body>
+<body class>
     <header class="site-navigation"> 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="#">
-                <img src="assets/pictures/Me.jpg" id ="ProfilePic">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-               
-                <li class="nav-item active">
-                  <a class="nav-link" href="#AboutMe">About Me <span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item active">
-                  <a class="nav-link" href="#MyWork">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="#Contact">Contact <span class="sr-only">(current)</span></a>
-                </li>    
-
-              </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+                <span class="navbar-brand">Christian Tanicala</span>
             </div>
           </nav>
     </header>
-        
-    <section id ="AboutMe" class = "row">
+
+    <section>
+        <div class="row justify-content-center">
             
-        <div id="border-style" class ="col-2 text-right">    
-            <h2> About Me </h2>
+            <button class="btn" id="AboutMe">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header text-center">Biography</div>
+                    <div class="card-body">
+                        <p class="card-text">Learn who Christian Tanicala is and follow his journey as a developer.</p>
+                    </div>
+                </div>
+            </button>
+
+            <button class="btn" id="MyWork">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header text-center">Projects</div>
+                    <div class="card-body">
+                        <p class="card-text">Take a look at a few of Christian's most prominent works during his time as a developer</p>
+                    </div>
+                </div>
+            </button>
+
+            <button class="btn" id="Contact">
+                <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header text-center">Contact</div>
+                    <div class="card-body">
+                        <p class="card-text">Technologies and languages include Jquery Node.js, Express.js, Handlebars.js, MySQL, & Sequelize</p>
+                    </div>
+                </div>
+            </button>
         </div>
-        <div class = "col">
-            <p>
-                Christian Tanicala is a recent graduate of the Ohio State University's Fisher College of Business, graduating with a Bachelor's degree in Business Science of Business Administration, and specializing in Logistics Management.
-                Although Christian has specialized in Logistics Management, Christian has started his career in the financial securities industry. He currently works for Morgan Stanley in Columbus, Ohio in the Wealth Management department as a Workplace Solutions Group Service Representative.
-                
+    </section>
+    <section class="stableSection">
+        <div class="text-white text-center mb-3 modifiedText">
+            <h1 id="header-swap">
+                Welcome to Christian Tanicala's Portfolio
+            </h1>
+            <p id="paragraph-swap">
+                Please click on any of the above sections to view the specified content.
             </p>
         </div>
     </section>
+    <footer>
+        <div class="bg-dark">
 
-    <section id ="MyWork" class = "row">
-        <div id="border-style" class ="col-2 border-right border-danger text-right">
-                <h2> Portfolio </h2>
         </div>
-         <div class = "col">
-            <div class = "row">
-                <ul>
-                    <li>
-                        JCPGMarketWatch
-                    </li>
-                    <li>
-                        <a href="https://jcgasper.github.io/JCPGMarketWatch/stockticker.html">Website</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/jcgasper/JCPGMarketWatch">Repository</a>
-                    </li>
-                </ul>
-                <figure class = "col">
-                        <a href="https://jcgasper.github.io/JCPGMarketWatch/stockticker.html">
-                            <img src="assets/pictures/JCPG.PNG" class="border">
-                            </a>
-                </figure>
-                <ul>
-                    <li>
-                        Password Generator
-                    </li>
-                    <li>
-                        <a href="https://chtanicala.github.io/Password-Generator-Christian-Tanicala-/Develop/index.html">Website</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Chtanicala/Password-Generator-Christian-Tanicala-">Repository</a>
-                    </li>
-                </ul>
-                <figure class = "col">
-                        <a href="https://chtanicala.github.io/Password-Generator-Christian-Tanicala-/Develop/index.html" class="border">
-                            <img src="assets/pictures/Capture.PNG" class="border">
-                        </a>
-                </figure>
-
-            </div>
-        </div>
-    </section>
-
-    <section id ="Contact" class = "row">
-        <div id="border-style" class ="col-2 border-right border-danger text-right">
-            <h2>Contact Me</h2>
-        </div>
-        <div class = "col">
-            <ul id = "Contact-List" class ="row">
-                <li class="col">
-                    <a href="https://github.com/Chtanicala"> GitHub</a>
-                </li>
-                <li class="col">
-                    <a href="mailto:christian.tanicala@gmail.com"> Email</a>
-                </li>
-                <li class="col">
-                    <a href="https://www.linkedin.com/in/christian-t-94a24411a/"> LinkedIn</a>
-                </li>
-                <li class="col">
-                    <a href="Christian-Tanicala-AU21-Coding(1).pdf" download>Resume</a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    </footer>
+<script src="assets/js/index.js"></script>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>
