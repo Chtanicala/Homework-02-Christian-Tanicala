@@ -7,6 +7,7 @@
 - Bootstrap (CSS)
 - Javascript
 - HTML
+- jQuery
 
 ## Troubleshooting
 - If LinkedIn link does not work, please sign in.
@@ -15,9 +16,6 @@
 - ![](assets/pictures/NewDesign.PNG)
 
 ## Credits
-- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide (ReadMe Guide)
-- https://www.w3schools.com/html/html5_semantic_elements.asp (HTML Semantics)
-- https://picsum.photos/ (Placeholder Images)
 
 ## License
 - MIT
