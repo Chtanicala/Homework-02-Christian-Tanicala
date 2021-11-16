@@ -23,7 +23,7 @@
 - MIT
 
 ## Links
-- https://chtanicala.github.io/Website-Portfolio/ (Website Link)
+- https://chtanicala.github.io/Website-Portfolio/index.html (Website Link)
 - https://github.com/Chtanicala/Website-Portfolio (Repository)
 
 ## Contributors
