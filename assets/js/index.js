@@ -76,7 +76,7 @@ function contactReplace() {
                 <a href="https://www.linkedin.com/in/christian-t-94a24411a/"> LinkedIn</a>
             </li>
             <li class="col">
-                <a href="Christian-Tanicala-AU21-Coding(1).pdf" download>Resume</a>
+                <a href="Christian-Tanicala-Winter21.pdf" download>Resume</a>
             </li>
         </ul>
     </div>`).appendTo(".stableSection")
